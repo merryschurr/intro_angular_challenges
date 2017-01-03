@@ -21,8 +21,8 @@ function ClassController(){
   this.start_date = "10/31/16";
   this.end_date = "02/02/16"; // change me
 }
-// app.controller("WelcomeController", WelcomeController);
+app.controller("WelcomeController", WelcomeController);
 
-// function WelcomeController(){
-//   this.full_name = "YOUR NAME"
-// }
+function WelcomeController(){
+  this.full_name = "Merry Schurr"
+}
